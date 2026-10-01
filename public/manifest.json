@@ -1,0 +1,20 @@
+{
+  "name": "Kothbel E-Commerce",
+  "short_name": "Kothbel",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#F97316",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://placehold.co/192x192/F97316/FFFFFF?text=K",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/512x512/F97316/FFFFFF?text=K",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

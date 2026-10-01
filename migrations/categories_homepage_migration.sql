@@ -1,0 +1,1 @@
+ALTER TABLE categories ADD COLUMN show_on_homepage INTEGER NOT NULL DEFAULT 0;

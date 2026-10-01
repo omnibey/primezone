@@ -1,0 +1,104 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-08-02 12:06:00",
+  "containerVersion": {
+    "path": "accounts/6322120817/containers/234196490/versions/0",
+    "accountId": "6322120817",
+    "containerId": "234196490",
+    "containerVersionId": "0",
+    "container": {
+      "path": "accounts/6322120817/containers/234196490",
+      "accountId": "6322120817",
+      "containerId": "234196490",
+      "name": "kothbel.com - Server",
+      "publicId": "GTM-TMZLM5X8",
+      "usageContext": [
+        "SERVER"
+      ]
+    },
+    "tag": [],
+    "trigger": [
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "triggerId": "401",
+        "name": "All Events",
+        "type": "ALWAYS"
+      }
+    ],
+    "variable": [
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "variableId": "1",
+        "name": "Measurement ID",
+        "type": "c",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "value",
+            "value": "G-6MMMY82G77"
+          }
+        ]
+      },
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "variableId": "2",
+        "name": "Pixel ID",
+        "type": "c",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "value",
+            "value": "1098001739077576"
+          }
+        ]
+      },
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "variableId": "3",
+        "name": "Event Name",
+        "type": "edv",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "keyPath",
+            "value": "event_name"
+          }
+        ]
+      },
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "variableId": "4",
+        "name": "Event ID",
+        "type": "edv",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "keyPath",
+            "value": "event_id"
+          }
+        ]
+      },
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "variableId": "5",
+        "name": "Client Name",
+        "type": "cn"
+      }
+    ],
+    "client": [
+      {
+        "accountId": "6322120817",
+        "containerId": "234196490",
+        "clientId": "1",
+        "name": "GA4 Client",
+        "type": "ga4"
+      }
+    ]
+  }
+}

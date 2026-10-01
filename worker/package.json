@@ -1,0 +1,22 @@
+{
+  "name": "primezone-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create primezone-db",
+    "db:init": "wrangler d1 execute primezone-db --remote --file=../schema.sql",
+    "db:seed": "wrangler d1 execute primezone-db --remote --file=../seed.sql",
+    "db:init:local": "wrangler d1 execute primezone-db --local --file=../schema.sql",
+    "db:seed:local": "wrangler d1 execute primezone-db --local --file=../seed.sql"
+  },
+  "dependencies": {
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260729.1",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.123.0"
+  }
+}

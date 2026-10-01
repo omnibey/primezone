@@ -1,0 +1,6 @@
+# ⚠️ এই file কখনো git-এ commit করো না (already .gitignored)
+# Local development-এ wrangler এই file থেকে secrets পড়ে
+# Production secrets set করো: wrangler secret put SECRET_NAME
+
+JWT_SECRET=REPLACE_WITH_NEW_SECRET_HERE
+CLOUDFLARE_API_TOKEN=REPLACE_WITH_NEW_TOKEN_HERE
